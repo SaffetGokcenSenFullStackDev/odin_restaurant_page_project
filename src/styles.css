@@ -1,0 +1,47 @@
+html {
+    font-size: 24px;
+}
+
+body {
+    background-image: url("background.png");
+}
+
+h1 {
+    color:darkorange;
+}
+
+.welcomeDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.tabDiv {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.tabButton {
+    color:yellow;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.tabButton:hover {
+    background-color: black;
+    color: yellow;
+}
+
+.tabcontent {
+    
+}
+
+#content {
+    display: flex; 
+    flex-direction: column; 
+    gap: 10vh;
+}
